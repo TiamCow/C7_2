@@ -10,4 +10,5 @@ COPY target/ch09-ex1-download-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.wa
 EXPOSE 8080
 
 
+
 CMD ["catalina.sh", "run"]
